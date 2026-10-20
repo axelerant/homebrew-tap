@@ -1,6 +1,6 @@
 cask "fynn" do
-  version "1.4.0"
-  sha256 "e0d1347396938a6a604033c99d54daca508a6a6c6ec0a3f4343f7583f12ac66f"
+  version "1.5.0"
+  sha256 "eec9d9c062c98defd0b1c27bbb5e569900052545f9099c8aaf195a85fea6b504"
 
   # Immutable, versioned key. Never point this at the "latest" pointer object
   # (desktop/Fynn.pkg) — its bytes change on every release and the pinned
