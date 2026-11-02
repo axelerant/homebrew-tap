@@ -5,8 +5,7 @@ cask "fynn" do
   # Immutable, versioned key. Never point this at the "latest" pointer object
   # (desktop/Fynn.pkg) — its bytes change on every release and the pinned
   # sha256 would break for everyone the moment a new version ships.
-  url "https://fynn-downloads-959068696076.s3.ap-south-1.amazonaws.com/desktop/desktop-v#{version}/Fynn.pkg",
-      verified: "fynn-downloads-959068696076.s3.ap-south-1.amazonaws.com/desktop/"
+  url "https://fynn-downloads-959068696076.s3.ap-south-1.amazonaws.com/desktop/desktop-v#{version}/Fynn.pkg"
   name "Fynn"
   desc "Meeting and note capture with real-time transcription"
   homepage "https://fynn.team/"
